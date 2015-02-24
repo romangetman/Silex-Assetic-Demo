@@ -2,4 +2,11 @@
     <link href="{{ asset_url }}" type="text/css" rel="stylesheet" />
 {% endstylesheets %}
 
+<!-- To define custom order of css files and get a single link tag with all the files combined use the following
+{% stylesheets  '../resources/css/color.css' 
+                '../resources/css/weight.css' 
+                debug=false output='assets/css/all.css' %}
+    <link href="{{ asset_url }}" type="text/css" rel="stylesheet" />
+{% endstylesheets %}
+-->
 Content
